@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background: #aabbaa;
+width: 100%;
+font-size: 100%;
+-webkit-box-pack: center;
+padding: 1%;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.1em;
+}
+a:hover{
+  color: #ff3333;
+}
+
+#bootstrap-overrides p{
+  font: 1em Palatino Linotype !important;
+}
+span{
+  font-weight: bold;
+}
+
+.button{
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+}
